@@ -1,0 +1,37 @@
+/* Reset & Base */
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; margin: 0; padding: 0; }
+.container { width: 90%; max-width: 1200px; margin: 30px auto; background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+
+h1 { color: #333; font-weight: 300; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+
+/* Navigasi */
+.main-nav { background-color: #337ab7; display: flex; border-radius: 8px; overflow: hidden; margin-bottom: 25px; }
+.main-nav a { color: white; text-decoration: none; padding: 12px 25px; font-weight: 600; transition: 0.3s; }
+.main-nav a:hover { background-color: #286090; }
+.main-nav a.active { background-color: #1d456b; }
+
+/* Tombol */
+.btn-tambah { background-color: #2ecc71; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; display: inline-block; margin-bottom: 20px; transition: 0.3s; }
+.btn-tambah:hover { background-color: #27ae60; box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3); }
+
+/* Table & Gambar (PERBAIKAN UTAMA) */
+.table-barang { width: 100%; border-collapse: collapse; margin-top: 10px; border-radius: 8px; overflow: hidden; }
+.table-barang th { background-color: #f1f3f5; padding: 15px; text-align: left; color: #495057; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; }
+.table-barang td { padding: 15px; border-bottom: 1px solid #eee; vertical-align: middle; }
+
+/* CSS agar gambar tidak gepeng */
+.img-barang { 
+    width: 60px; 
+    height: 60px; 
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    border-radius: 6px; 
+    border: 1px solid #ddd;
+}
+
+/* Pagination Modern */
+ul.pagination { display: flex; list-style: none; padding: 0; margin: 25px 0; gap: 5px; }
+ul.pagination li a { color: #337ab7; padding: 8px 16px; text-decoration: none; border: 1px solid #dee2e6; border-radius: 4px; transition: 0.3s; }
+ul.pagination li.active a { background-color: #337ab7; color: white; border-color: #337ab7; }
+ul.pagination li a:hover:not(.active) { background-color: #e9ecef; }
+
+footer { background: #343a40; color: #ced4da; padding: 20px; text-align: center; margin-top: 30px; border-radius: 0 0 12px 12px; }
